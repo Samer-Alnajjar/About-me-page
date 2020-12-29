@@ -1,0 +1,21 @@
+img {
+  width: 200px;
+  height: 200px;
+}
+
+body {
+  text-align: center;
+  background-color: rgb(107, 141, 179);
+}
+
+p {
+  font-size: 25px;
+}
+
+ol, ul {
+  list-style-position: inside;
+}
+
+span {
+  color: blue
+}
