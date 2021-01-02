@@ -62,7 +62,7 @@ function firstQuestion() {
 
 //Second question
 function secondQuestion() {
-  userInput = prompt("my favorite color is red, is it?").toLowerCase();
+  var userInput = prompt("my favorite color is red, is it?").toLowerCase();
 
   while (
     userInput !== "yes" &&
@@ -86,7 +86,7 @@ function secondQuestion() {
 
 //Third question
 function thirdQuestion() {
-  userInput = prompt(
+  var userInput = prompt(
     "One of my hobbies is watching movies, is that right?"
   ).toLowerCase();
 
@@ -114,7 +114,7 @@ function thirdQuestion() {
 
 //Fourth question
 function fourthQuestion() {
-  userInput = prompt("I love reading books, can you relate?").toLowerCase();
+  var userInput = prompt("I love reading books, can you relate?").toLowerCase();
 
   while (
     userInput !== "yes" &&
@@ -140,7 +140,7 @@ function fourthQuestion() {
 
 //Fifth question
 function fifthQuestion() {
-  userInput = prompt("Can I swim?").toLowerCase();
+  var userInput = prompt("Can I swim?").toLowerCase();
 
   while (
     userInput !== "yes" &&
@@ -167,7 +167,7 @@ function fifthQuestion() {
 //Sixth question
 function sixthQuestion() {
   for (let i = 1; i < 5; i++) {
-    userInput = prompt(
+    var userInput = prompt(
       "Please guess the number between 1 to 10, you have four attempts"
     );
     var userNumber = parseInt(userInput);
@@ -202,7 +202,7 @@ function seventhQuestion() {
   );
 
   for (let i = 1; i < 7; i++) {
-    userInput = prompt(
+    var userInput = prompt(
       "Deadpool, Identity Thief, Spiderman, Mama, Game Night, The Hitman's Bodyguard, R.I.P.D, Ride Along"
     ).toLowerCase();
     for (let j = 0; j < movies.length; j++) {
@@ -225,7 +225,7 @@ function seventhQuestion() {
 }
 
 function userScore() {
-  userInput = confirm(
+  var userInput = confirm(
     "You did great regradless the score :), would you like to know your score?"
   );
 
